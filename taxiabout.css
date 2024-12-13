@@ -1,0 +1,57 @@
+body{
+    background-image: url("traveling.jpg");
+    color: rgb(13, 13, 13);
+    text-align: center;
+}
+.h1{
+    color: rgb(246, 9, 9);
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: chocolate;
+    gap: 15px;
+    
+
+}.logo{
+    font-size: 50px;
+    text-align: center;
+    color: #f1eded;
+    gap: 50px;
+}
+
+.form{
+    border: double 8px yellow;
+    background-color: #f1eded;
+    border-radius: 5px;
+    width: 500px;
+    height: 650px;
+    font-size: 30px;
+    padding: 50px;
+    gap: 20px;
+    grid-row: auto;
+    transition:1s;
+border-radius: 20px;
+    }
+.form:over{
+    width: 500px;
+    transition:0.2s;
+}
+.h2{
+    width: 150px;
+    height: 25px;
+    border-radius: 10PX 5PX;
+ }
+ .h2:hover{
+     width:200px;
+     background-color: aqua;
+     transition: 0.6s;
+     border-radius: 5PX 10px;
+ }
+button{
+    text-align: center;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: rgb(11, 252, 11);
+}

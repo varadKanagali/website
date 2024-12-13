@@ -1,0 +1,185 @@
+body{
+    background: rgb(242, 245, 245);
+    margin: auto;
+
+}
+
+.navhome{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+background-color: rgb(96, 211, 250);
+font-size: 25px;
+}
+.navhome .logo{
+    display: flex;
+    align-items: center;
+    font-weight:bold ;
+    font-size: 70px;
+}
+.navhome .ul{
+    display: flex;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.navhome .ul .a{
+    display: flex;
+    color:rgb(255, 255, 255) ;
+    gap: 20px;
+}
+.navhome .ul .a:hover {
+    display: flex;
+    text-decoration: underline;
+    gap: 20px;
+    }
+    
+.offer {
+   top: 8%;
+    overflow: hidden;
+    border: double 8px #fff000;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 800px;
+    width: 1200px;
+    
+}
+
+.slides {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    animation: slide 10s infinite;
+}
+
+@keyframes slide {
+    0% { transform: translateX(0); } /* First slide */
+    20% { transform: translateX(0); } /* Stay on the first slide */
+    25% { transform: translateX(-100%); } /* Move to the second slide */
+    45% { transform: translateX(-100%); } /* Stay on the second slide */
+    50% { transform: translateX(-200%); } /* Move to the third slide */
+    70% { transform: translateX(-200%); } /* Stay on the third slide */
+    75% { transform: translateX(-300%); } /* Move to the fourth slide */
+    95% { transform: translateX(-300%); } /* Stay on the fourth slide */
+    100% { transform: translateX(-400%); } /* Move to the fifth slide */
+
+}
+
+.fillspace {
+    width: 100%;
+    height: 100%;
+}
+
+#iimg {
+    width: 100%;
+    height: 100%;
+    background-position:center;
+}
+#iimg1 {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+}
+#iimg2 {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+}
+#iimg3 {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+}#iimg4 {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+}
+h3 {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding-top: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+    .category{
+        background-color: aqua;
+        font-size: 20px;
+    }
+    .img{
+        border: yellowgreen;
+    }
+    .div{
+        text-align: center;
+        height: auto;
+        color: rgb(245, 234, 234);
+        background-color: black;
+    }
+    .div2{
+        border: double 8px yellow;
+        border-radius: 5px;
+        margin-left: 200px;
+        margin-right: 200px;
+        top: 8px;
+        padding: 20px;
+        gap: 20px;
+        grid-row: auto;
+
+    }
+    .img{
+        transition:1s;
+        background: #e1f508;
+    border: double#e6121c 8px;
+    border-radius: 20px;
+    }
+    .img:hover{
+       
+        box-shadow:rgb(227, 7, 7);
+        transform: translate(0,-8px);
+    }
+    .div1{
+        text-align: center;
+        height: auto;
+        color: rgb(245, 234, 234);
+        background-color: rgb(225, 16, 16);
+        padding: 20px;
+    }
+    .socimg {
+        height: 50px;
+        width: 50px;
+        float: right;
+        margin-right: 800px;
+        padding-bottom: 5px;
+    }
+    .socimg1{
+        height: 50px;
+        width: 50px;
+        float: right;
+        margin-right: 800px;
+        padding-bottom: 5px;
+    }
+    .p{
+        font-size: 30px;
+        color: #eb1a1a;
+    }
+    .link{
+        color: rgb(240, 144, 18);
+    }
+    .page-header{
+        text-align: center;
+        font-size: 3rem;
+        padding: 20px;
+        color: #0d0d0d;
+    }
+   .pageheader{
+    background-color: #d1b8b8;
+   }
+  
+      
+   

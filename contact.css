@@ -1,0 +1,50 @@
+body{
+    background-color: aqua;
+    color: rgb(13, 13, 13);
+    text-align: center;
+}
+.h1{
+    color: rgb(247, 241, 241);
+    font-size: 30px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: chocolate;
+    padding: 20px;
+
+}
+.nav {
+    color: aliceblue;
+    font-size: 20px;
+    
+}
+.div1{
+    text-align: center;
+    height: auto;
+    color: rgb(245, 234, 234);
+    background-color: rgb(225, 16, 16);
+    padding: 20px;
+}
+.h{
+    font-size: 40px;
+    font-weight: bold;
+}
+.socimg {
+    height: 50px;
+    width: 50px;
+    float: right;
+    margin-right: 800px;
+    padding-bottom: 5px;
+}
+.socimg1{
+    height: 50px;
+    width: 50px;
+    float: right;
+    margin-right: 800px;
+    padding-bottom: 5px;
+}
+.footer{
+    background-color: chocolate;
+    font-size: 20px;
+}

@@ -1,0 +1,137 @@
+body{
+
+    background-color: aqua;
+    color: #121213;
+   text-align: center; 
+}
+.navhome{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+        padding: 10px 20px;
+background-color: rgb(226, 101, 17);
+font-size: 25px;
+}
+.navhome .logo{
+    display: flex;
+    align-items: center;
+    font-weight:bold ;
+    font-size: 70px;
+}
+.navhome .ul{
+    display: flex;
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+.navhome .ul .a{
+    display: flex;
+    color:rgb(255, 255, 255) ;
+}
+.navhome .ul .a:hover {
+    display: flex;
+    text-decoration: underline;
+    }
+                
+.div {
+    float: right;
+    width: 30%;
+    margin: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    padding-top: 20px;
+    box-shadow: 0 14px 28px rgb(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    
+    transition:1s;
+    background: #e1f508;
+    border: double#f7f6f2;
+    border-radius: 20px;
+}
+    .div:hover{
+        box-shadow:rgb(104, 96, 96);
+        transform: translate(0,-8px);
+    }
+    .div3{
+        float: right;
+        width: 40%;
+        margin: 15px;
+        box-sizing: border-box;
+        text-align: center;
+        border-radius: 10px;
+        cursor: pointer;
+        padding-top: 20px;
+        box-shadow: 0 14px 28px rgb(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+        
+        transition:1s;
+        background: #e1f508;
+        border: double#f7f6f2;
+        border-radius: 20px;
+    }
+        .div3:hover{
+            box-shadow:rgb(104, 96, 96);
+            transform: translate(0,-8px);
+        }
+        .div4{
+            float: right;
+            width: 40%;
+            margin: 15px;
+            box-sizing: border-box;
+            text-align: center;
+            border-radius: 10px;
+            cursor: pointer;
+            padding-top: 20px;
+            box-shadow: 0 14px 28px rgb(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+            
+            transition:1s;
+            background: #e1f508;
+            border: double#f7f6f2;
+            border-radius: 20px;
+        }
+        .div4:hover{
+            box-shadow:rgb(104, 96, 96);
+            transform: translate(0,-8px);
+        }
+        .page-header{
+            text-align: center;
+            font-size: 3rem;
+            padding: 20px;
+            color: #0d0d0d;
+        }
+        .page-header1{
+            text-align: center;
+            font-size: 3rem;
+            padding: 20px;
+            color: #0d0d0d;
+        }
+            .div3:hover{
+                box-shadow:rgb(104, 96, 96);
+                transform: translate(0,-8px);
+            }
+   button {
+        text-align: center;
+        font-size: 24px;
+        color: #f7f0f0;
+        background-color: red;
+        width: 100%;
+        padding-top: 8px;
+        border: 0;
+        outline: none;
+        cursor: pointer;
+        margin-top: 5px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        padding-bottom: 5px;
+    }
+    
+    .buy{
+        background-color: rgb(233, 31, 31);
+        
+    }
+    .buy:hover{
+        background-color: white ;
+        color: red;
+    }
+
